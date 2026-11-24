@@ -197,6 +197,25 @@ footer {
     padding: 25px;
 }
 
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 10px;
+}
+
+.redes a {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    color: #25d366;
+    transform: scale(1.15);
+}
+
 
 /* RESPONSIVE (MEDIA QUERIES) */
 
